@@ -1,0 +1,165 @@
+* {
+    font-family: 'Merriweather', sans-serif;
+    text-decoration: none;
+    
+}
+
+body {
+    margin: 0 0;
+    text-align: center;
+    color: #40514E;
+}
+
+header {
+    display: flex;
+    max-width: 1200px;
+    justify-content: space-between;
+    margin: 0 auto;
+    padding: 35px 15px;
+    box-sizing: border-box;
+}
+
+header .navbar a{
+    padding: 0 0 0 10px;
+}
+
+.top-container {
+    position: relative;
+    padding: 100px 0 0 0;
+}
+
+/* #home {
+    height: 100vh;
+} */
+
+h1 {
+    font-family: 'Sacramento', cursive;
+    font-size: 5.625rem;
+    margin: 50px auto 0 auto;
+    color: #66BFBF;
+    /* line-height: 2; */
+}
+
+h2 {
+    font-size: 2.5rem;
+    color: #66BFBF;
+    font-weight: normal;
+}
+
+h3, a {
+    color: #11999E;
+}
+
+hr {
+    margin: 100px auto;
+    border: dotted #EAF6F6 6px;
+    border-bottom: none;
+    width: 4%;
+}
+
+p {
+    line-height: 2;
+}
+/* .desc {
+    margin: 0 0;
+} */
+
+.desc span {
+    text-decoration: underline;
+}
+
+.top-cloud {
+    position: absolute;
+    right: 21%;
+    top: 50px;
+}
+
+.bottom-cloud {
+    position: absolute;
+    left: 21%;
+    bottom: 300px;
+}
+
+.middle-container {
+    position: relative;
+    /* padding: 100px 0 100px 0; */
+}
+
+.middle-container .avatar {
+    width: 256px;
+}
+
+.middle-container .intro {
+    width: 30%;
+    margin: 0 auto;
+}
+
+.skills .skill-row {
+    width: 50%;
+    margin: 100px auto;
+    text-align: left;
+}
+
+.skills .skill-row .img-1 {
+    width: 25%;
+    float: left;
+    margin: 0 30px 0 0;
+    border-radius: 50%;
+    border: none;
+}
+
+.skills .skill-row .img-2 {
+    width: 25%;
+    float: right;
+    margin: 0 0 0 30px;
+    border-radius: 50%;
+    border: none;
+}
+
+
+/* .skills .skill-row h3 {
+    text-align: left;
+} */
+
+/* .skills .skill-row p {
+    text-align: left;
+    line-height: 2;
+} */
+
+.contact-me {
+    margin: 0 0 100px 0;
+}
+
+.contact-me h2 {
+    margin: 0 0 30px 0;
+}
+
+.contact-me p {
+    width: 30%;
+    margin: 40px auto 60px;
+}
+
+.contact-me .btn{
+    border-radius: 8px;
+    background-image: linear-gradient(to bottom, #11cdd4, #11999e);
+    padding: 10px 20px;
+    color: #FFFFFF;
+    box-sizing: border-box;
+}
+
+.contact-me .btn:hover{
+    background-image: linear-gradient(to bottom, #30e3cb, #2bc4ad);
+}
+
+footer {
+    background-color: #66BFBF;
+    padding: 50px 0 20px;
+}
+
+footer .footer-link {
+    margin: 10px 20px;
+}
+
+footer .copyright {
+    color: #EAF6F6;
+}
